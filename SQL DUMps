@@ -1,0 +1,16 @@
+SQL TABLE CREATION:
+
+reate table plancks(
+id int auto_increment primary key,
+wavelength_nm float,
+temperature int,
+radiation float
+);
+SHOW TABLES;
+
+SQL QUERY
+SELECT * FROM plancks;
+SELECT * FROM plancks
+WHERE wavelength_nm IS NULL
+   OR temperature IS NULL
+   OR radiation IS NULL;

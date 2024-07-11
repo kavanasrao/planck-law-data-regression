@@ -31,7 +31,7 @@ for T in temperature:
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Anishakaaval35",
+    password="***************",
     database="blackbodydata"
 )
 cursor = conn.cursor()

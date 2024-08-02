@@ -1,4 +1,4 @@
-# planck's Black Body radition
+
 import math
 import numpy as np
 # Connecting to Mysql 
